@@ -10,28 +10,39 @@ import AppLayout from "@/Pages/layouts/AppLayout.vue";
 <template>
     <app-layout>
 
-              
+
 <section class="bg-white pb-14  rounded-xl bg-[url('/img/home/home.png')]">
-    <div class="py-8 px-4 mx-auto  text-center   lg:py-16 z-10 relative">
+    <div class="py-8 px-4 mx-auto text-center   lg:py-16 z-10 relative">
         <a href="#" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
-            <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">Nouvelle</span> <span class="text-sm font-medium">Regardez ce qu'il y a de nouveau</span> 
+            <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">Nouvelle</span> <span class="text-sm font-medium">Regardez ce qu'il y a de nouveau</span>
             <svg class="w-2.5 h-2.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
             </svg>
         </a>
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">PARTAGEZ VOTRE ROUTE,ECONMISEZ ET EXPLOREZ</h1>
-        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
+            Bienvenue dans notre communauté de partage de voitures en pair-à-pair où vous pouvez
+            facilement vous connecter avec d'autres. Que vous soyez propriétaire
+             de voiture cherchant à Économiser sur les dépenses ou un explorateur
+              à la recherche de nouveaux horizons,
+              notre plateforme offre un moyen fluide d'accéder aux véhicules et de les partager.
+              Rejoignez-nous dès aujourd'hui et faites l'expérience de la liberté des déplacements collaboratifs.
+
+
+
+
+        </p>
             <div class="relative">
                <a href="/map">
                 <button type="submit" class="mx-auto text-2xl    bottom-2.5 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none px-4 py-2 focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Open The Map</button>
             </a>
             </div>
     </div>
-    <div class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-500 w-full h-full absolute top-20 left-0 z-0"></div>
+    <div class="bg-gradient-to-b from-blue-500 to-transparent  w-full h-full absolute top-14 left-0 z-0"></div>
 </section>
 
 <section class="mt-24 relative mx-auto">
-    <h2 class="text-black text-4xl font-extrabold leading-10 ml-5">BMW les mieux notées au Maroc</h2>
+    <h2 class="text-black text-4xl font-extrabold leading-10 ml-5">les mieux notées au Maroc</h2>
     <div class="w-80 h-12 left-[123px] top-[5px] bg-sky-400 bg-opacity-30 absolute  "></div>
 <div class=" flex flex-wrap justify-center space-x-6">
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow mt-14 ">
@@ -55,7 +66,7 @@ import AppLayout from "@/Pages/layouts/AppLayout.vue";
                             <p class="font-bold text-gray-900 ">250DH/Jour</p>
                         </div>
                     </div>
-                    
+
                     <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                     Louer maintenant
                     <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -85,7 +96,7 @@ import AppLayout from "@/Pages/layouts/AppLayout.vue";
                             <p class="font-bold text-gray-900 ">250DH/Jour</p>
                         </div>
                     </div>
-                    
+
                     <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                     Louer maintenant
                     <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -115,7 +126,7 @@ import AppLayout from "@/Pages/layouts/AppLayout.vue";
                             <p class="font-bold text-gray-900 ">250DH/Jour</p>
                         </div>
                     </div>
-                    
+
                     <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                     Louer maintenant
                     <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -126,7 +137,7 @@ import AppLayout from "@/Pages/layouts/AppLayout.vue";
         </div>
 </div>
 <div class="text-center mt-8">
-<button type="button" class="text-white  bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center mr-2 mb-2 ">Réserver une BMW</button>
+<button type="button" class="text-white  bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-5 py-2.5 text-center mr-2 mb-2 ">Réserver une Voiture</button>
 </div>
 </section>
 <section class="relative mt-24">
@@ -211,15 +222,15 @@ import AppLayout from "@/Pages/layouts/AppLayout.vue";
                   </h3>
                   <p class="text-gray-500 ">You will have access to download the full Figma project including all of the pages, the components, responsive pages, and also the icons, illustrations, and images included in the screens.</p>
               </div>
-              <div class="mb-10">                        
+              <div class="mb-10">
                   <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 ">
                       <svg class="flex-shrink-0 mr-2 w-5 h-5 text-black " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                       Comment puis-je m'inscrire en tant que propriétaire de voiture ?
                   </h3>
                   <p class="text-gray-500 ">Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge.</p>
               </div>
-              
-              
+
+
           </div>
           <div>
               <div class="mb-10">
@@ -238,8 +249,8 @@ import AppLayout from "@/Pages/layouts/AppLayout.vue";
                   <p class="text-gray-500 ">The <a href="#" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">free version</a> of Windster includes a minimal style guidelines, component variants, and a dashboard page with the mobile version alongside it.</p>
                   <p class="text-gray-500 ">You can use this version for any purposes, because it is open-source under the MIT license.</p>
               </div>
-              
-      
+
+
           </div>
         </div>
 </section>

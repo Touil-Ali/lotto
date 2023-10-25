@@ -23,6 +23,10 @@ Route::get('/car-listings', function() {
     return inertia::render('CarListing');
 });
 
+Route::get('/annonce', function() {
+    return inertia('Annonce');
+});
+
 Route::get('/user-profiles', function() {
     return inertia::render('UserProfile');
 });
