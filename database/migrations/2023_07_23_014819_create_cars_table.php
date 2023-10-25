@@ -15,9 +15,14 @@ return new class extends Migration
             $table->id();
             $table->string('make');
             $table->string('model');
-            $table->integer('year');
-            $table->string('color');
-            $table->string('plate');
+            $table->double('lat');
+            $table->double('lng');
+            $table->integer('year'); // Year of the car
+            $table->string('color'); // Color of the car
+            $table->text('description')->nullable(); // Description of the car
+            $table->float('price_per_hour'); // Price per hour for renting the car
+            $table->boolean('available')->default(true); // Is the car available for booking?
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

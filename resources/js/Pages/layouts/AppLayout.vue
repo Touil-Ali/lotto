@@ -1,20 +1,18 @@
 <script setup>
 
+import Header from "@/Pages/layouts/Header.vue"
+import Footer from "./Footer.vue";
 </script>
 
 <template>
     <div>
-        <header>
-
-        </header>
+        <Header></Header>
         <main>
             <slot>
 
             </slot>
         </main>
-        <footer>
-
-        </footer>
+        <Footer></Footer>
     </div>
 </template>
 
